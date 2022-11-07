@@ -14,7 +14,7 @@ import java.util.Scanner;
                 Scanner myscan = new Scanner(System.in);
                 int myNum = myscan.nextInt();
 
-                if (myNum <= 9 || myNum > 0) {
+                if (myNum <= 9 && myNum > 0) {
                     System.out.println("You entered " + myNum);
                     num--;
 
